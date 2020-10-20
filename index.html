@@ -35,6 +35,21 @@
                                 aa.style.display="none";
                         }
             </script>
+            <script src="js/push.js"></script>
+			<script>
+	(function(){
+		var bp = document.createElement('script');
+		var curProtocol = window.location.protocol.split(':')[0];
+		if (curProtocol === 'https') {
+			bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+		}
+		else {
+			bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+		}
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(bp, s);
+	})();
+</script>
 </head>
 <audio autoplay="autoplay">
 	<source src="song.ogg" type="audio/ogg">
@@ -85,7 +100,7 @@
         </a>
       </li> 
      <li>
-      <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=530813745&amp;site=qq&amp;menu=yes" id="link-comment" target="_blank">
+      <a href="http://wpa.qq.com/msgrd?v=3&uin=530813745&site=qq&menu=yes" id="link-comment" target="_blank">
        <span class="link-text-wrapper"> <span class="link-text"> <em class="link-icon"></em>QQ群</span> </span> </a> </li> 
     </ul> 
     <div id="nav-overlay"></div> 
