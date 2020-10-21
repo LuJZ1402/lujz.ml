@@ -99,8 +99,8 @@ a{
 #nav #link-guide:hover{background:#3aa624}
 #nav #link-comment:hover{background:#f2ca00}
 #nav #link-app:hover{background:#c145cc}
-#nav a .link-icon{width:20px;height:20px;margin:20px 8px 0 0;background-image:url(img/icons-nav_078b02e.png);overflow:hidden}
-#nav a:hover .link-icon{background-image:url(img/icons-nav-active_8e6f1c1.png)}
+#nav a .link-icon{width:20px;height:20px;margin:20px 8px 0 0;background-image:url(/*图片链接*/);overflow:hidden}
+#nav a:hover .link-icon{background-image:url(/*图片链接*/)}
 #nav #link-about .link-icon{background-position:0 0}
 #nav #link-log .link-icon{background-position:-20px 0}
 #nav #link-guide .link-icon{background-position:-40px 0}
@@ -112,7 +112,7 @@ a{
 .top-bar{position:absolute;top:10px;z-index:2}
 #slide-bar{width:11px;height:161px;margin-top:-80px;position:absolute;top:50%;right:35px;z-index:2;overflow:hidden}
 #slide-bar li{width:11px;height:11px;padding-bottom:14px}
-#slide-bar li a{display:block;height:100%;background:url(img/button-slide-bar_af3c08b.png) no-repeat;overflow:hidden}
+#slide-bar li a{display:block;height:100%;background:url(/*图片链接*/) no-repeat;overflow:hidden}
 #slide-bar .slide-bar-active a{background-position:0 -11px}
 #boxes{z-index:1;font-size:32px}
 #boxes,#boxes li{width:100%;height:100%;position:absolute;top:0;left:0}#boxes li{display:none;overflow:hidden;z-index:99}
@@ -137,13 +137,13 @@ a{
 #sub{width:100%;position:relative;z-index:3;overflow:hidden}
 .sub-item{display:none;width:100%;height:100%;position:relative}
 .sub-item .button-down{width:990px;height:45px;padding-top:25px;margin-left:-495px;position:absolute;top:0;left:50%;z-index:2;cursor:pointer}
-.sub-item .button-down-icon{display:block;width:55px;height:12px;margin:0 auto;overflow:hidden;background:url(img/button-down_a87d001.png) no-repeat}
-.sub-item .button-down-shadow{display:none;width:100%;height:5px;position:absolute;bottom:-5px;left:0;overflow:hidden;background:url(img/button-down-shadow_7be46a3.png) no-repeat center top}
+.sub-item .button-down-icon{display:block;width:55px;height:12px;margin:0 auto;overflow:hidden;background:url(/*图片链接*/) no-repeat}
+.sub-item .button-down-shadow{display:none;width:100%;height:5px;position:absolute;bottom:-5px;left:0;overflow:hidden;background:url(/*图片链接*/) no-repeat center top}
 .sub-item .button-down:hover .button-down-icon{background-position:0 -36px}
 .sub-item-wrapper{width:100%;max-width:1000px;height:100%;margin:0 auto;position:relative;overflow:hidden;z-index:1}
 .sub-item-container{width:100%;padding:75px 0 50px}
 .sub-item-header{display:block;width:84px;height:87px;padding:40px 0 70px;margin:0 auto;position:relative}
-.sub-item-header-icon{display:block;width:100%;height:100%;background:url(img/icons-sub-item-header_261d1ab.png) no-repeat}
+.sub-item-header-icon{display:block;width:100%;height:100%;background:url(/*图片链接*/) no-repeat}
 .about,.about .button-down{background:#228bd6}
 .about .button-down-icon{background-position:0 0}
 .about-header .sub-item-header-icon{background-position:0 0}
@@ -151,24 +151,24 @@ a{
 .about-content p{margin-bottom:25px;text-align:justify}
 .about-content-splitter{border-top:dashed 1px #fff}
 .about-content .about-date{text-align:right}
-.about-footer{width:124px;height:25px;margin-left:-62px;position:relative;left:50%;float:left;background:url(img/bg-product-brand-blue_e0652ef.png) no-repeat}
+.about-footer{width:124px;height:25px;margin-left:-62px;position:relative;left:50%;float:left;background:url(/*图片链接*/) no-repeat}
 .log,.log .button-down{background:#c33}
 .log .button-down-icon{background-position:0 -12px}
 .log-header .sub-item-header-icon{background-position:0 -87px}
 .log-content{width:50%;margin-left:-2px;position:relative;top:0;left:50%;border-left:solid 4px #b32020}
 .log-begin{height:30px;margin-bottom:60px;position:relative;left:30px}
-.log-begin .log-begin-icon{width:10px;height:10px;position:absolute;top:10px;left:-37px;z-index:3;background:url(img/icon-log-item-begin_2d66077.png) no-repeat}
-.log-begin .log-begin-icon-light{width:30px;height:30px;position:absolute;top:0;left:-47px;z-index:2;background:url(img/icon-log-item-begin-light_423c5a8.png) no-repeat}
-.log-begin .log-begin-icon-overlay{width:30px;height:30px;position:absolute;top:0;left:-47px;z-index:1;background:url(img/icon-log-item-begin-overlay_7730383.png) no-repeat}
+.log-begin .log-begin-icon{width:10px;height:10px;position:absolute;top:10px;left:-37px;z-index:3;background:url(/*图片链接*/) no-repeat}
+.log-begin .log-begin-icon-light{width:30px;height:30px;position:absolute;top:0;left:-47px;z-index:2;background:url(/*图片链接*/) no-repeat}
+.log-begin .log-begin-icon-overlay{width:30px;height:30px;position:absolute;top:0;left:-47px;z-index:1;background:url(/*图片链接*/) no-repeat}
 .log-begin .log-begin-text,.log-end .log-end-text{font-size:16px;line-height:30px;color:#f77575;text-shadow:0 1px 0 #ba2e2e}
 .log-end{width:310px;margin-top:60px;position:relative;left:30px}
-.log-end .log-end-icon{width:30px;height:33px;position:absolute;top:0;left:-47px;background:url(img/icon-log-item-end_0a5a61b.png) no-repeat}
+.log-end .log-end-icon{width:30px;height:33px;position:absolute;top:0;left:-47px;background:url(/*图片链接*/) no-repeat}
 .log-end .log-date{margin-left:10px;font-size:10px}
 .log-box{width:390px;margin-bottom:6px;position:relative;text-shadow:0 1px 0 #a12525}
 .log-box h3,.log-box h4{margin-bottom:12px;font-size:16px;color:#f66}
 .log-box h4{padding-top:18px;font-size:14px;font-weight:700;color:#fff}
 .log-box .log-date{margin-left:5px;font-size:10px}
-.log-box .log-box-icon{width:14px;height:14px;position:absolute;top:-6px;background:url(img/icon-log-item_07c9763.png) no-repeat}
+.log-box .log-box-icon{width:14px;height:14px;position:absolute;top:-6px;background:url(/*图片链接*/) no-repeat}
 .log-box .log-box-content-inner,.log-box .log-box-top-inner,.log-box .log-box-bottom-inner{position:relative}
 .log-box ol{font-size:12px;line-height:1.7}
 .log-box li{width:300px;padding:0 0 10px 20px;position:relative}
@@ -177,12 +177,12 @@ a{
 .log-box-item-content strong{font-weight:400}
 .log-box-item-content p{color:#ff7f7f}
 .log-left-box{left:-424px}
-.log-left-box .log-box-top{padding-left:30px;background:url(img/log-left-box-top_0ccbf0d.png) no-repeat left top}
-.log-left-box .log-box-top-inner{padding:9px 40px 0 0;background:url(img/log-left-box-top_0ccbf0d.png) no-repeat right top}
-.log-left-box .log-box-content{padding-left:30px;background:url(img/log-left-box-center_07c423e.png) repeat-y left}
-.log-left-box .log-box-content-inner{padding:21px 40px 0 0;background:url(img/log-left-box-center_07c423e.png) repeat-y right}
-.log-left-box .log-box-bottom{padding-left:30px;background:url(img/log-left-box-bottom_8fc0849.png) no-repeat left top}
-.log-left-box .log-box-bottom-inner{padding:31px 40px 0 0;background:url(img/log-left-box-bottom_8fc0849.png) no-repeat right top}
+.log-left-box .log-box-top{padding-left:30px;background:url(/*图片链接*/) no-repeat left top}
+.log-left-box .log-box-top-inner{padding:9px 40px 0 0;background:url(/*图片链接*/) no-repeat right top}
+.log-left-box .log-box-content{padding-left:30px;background:url(/*图片链接*/) repeat-y left}
+.log-left-box .log-box-content-inner{padding:21px 40px 0 0;background:url(/*图片链接*/) repeat-y right}
+.log-left-box .log-box-bottom{padding-left:30px;background:url(/*图片链接*/) no-repeat left top}
+.log-left-box .log-box-bottom-inner{padding:31px 40px 0 0;background:url(/*图片链接*/) no-repeat right top}
 .log-left-box .log-box-icon{left:415px}.log-right-box{left:30px}
 .log-right-box .log-box-top{padding-left:40px;background:url(img/log-right-box-top_4b237d4.png) no-repeat left top}
 .log-right-box .log-box-top-inner{padding:10px 30px 0 0;background:url(img/log-right-box-top_4b237d4.png) no-repeat right top}
