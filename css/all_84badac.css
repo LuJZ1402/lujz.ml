@@ -184,12 +184,12 @@ a{
 .log-left-box .log-box-bottom{padding-left:30px;background:url(/*图片链接*/) no-repeat left top}
 .log-left-box .log-box-bottom-inner{padding:31px 40px 0 0;background:url(/*图片链接*/) no-repeat right top}
 .log-left-box .log-box-icon{left:415px}.log-right-box{left:30px}
-.log-right-box .log-box-top{padding-left:40px;background:url(img/log-right-box-top_4b237d4.png) no-repeat left top}
-.log-right-box .log-box-top-inner{padding:10px 30px 0 0;background:url(img/log-right-box-top_4b237d4.png) no-repeat right top}
-.log-right-box .log-box-content{padding-left:40px;background:url(img/log-right-box-center_38441b2.png) repeat-y left}
-.log-right-box .log-box-content-inner{padding:20px 30px 0 0;background:url(img/log-right-box-center_38441b2.png) repeat-y right}
-.log-right-box .log-box-bottom{padding-left:40px;background:url(img/log-right-box-bottom_5d7a003.png) no-repeat left top}
-.log-right-box .log-box-bottom-inner{padding:31px 30px 0 0;background:url(img/log-right-box-bottom_5d7a003.png) no-repeat right top}
+.log-right-box .log-box-top{padding-left:40px;background:url(/*图片链接*/) no-repeat left top}
+.log-right-box .log-box-top-inner{padding:10px 30px 0 0;background:url(/*图片链接*/) no-repeat right top}
+.log-right-box .log-box-content{padding-left:40px;background:url(/*图片链接*/) repeat-y left}
+.log-right-box .log-box-content-inner{padding:20px 30px 0 0;background:url(/*图片链接*/) repeat-y right}
+.log-right-box .log-box-bottom{padding-left:40px;background:url(/*图片链接*/) no-repeat left top}
+.log-right-box .log-box-bottom-inner{padding:31px 30px 0 0;background:url(/*图片链接*/) no-repeat right top}
 .log-right-box .log-box-icon{left:-39px}
 .guide,.guide .button-down{background:#3aa624}
 .guide .button-down-icon{background-position:0 -24px}
@@ -200,7 +200,7 @@ a{
 .guide-search .guide-search-input{width:269px;height:28px;padding:0 9px;border:0;font-family:inherit;font-size:14px;font-weight:inherit;line-height:28px;color:#61c24e;background:#2c8c19;float:left}
 .guide-search .guide-search-button{width:70px;height:28px;border:0;padding:0;position:relative;cursor:pointer;background:#46b330;float:right}
 .guide-search .guide-search-button:hover{background:#50bf39}
-.guide-search .guide-search-icon{width:17px;height:17px;position:absolute;top:5px;left:26px;background:url(img/icon-search_e049894.png) no-repeat}
+.guide-search .guide-search-icon{width:17px;height:17px;position:absolute;top:5px;left:26px;background:url(/*图片链接*/) no-repeat}
 .guide-search .guide-search-button:hover .guide-search-icon{background-position:0 -17px}
 .guide-list{font-size:12px;line-height:1.8}
 .guide-list dt{margin-bottom:5px;font-size:16px;font-weight:700;line-height:2}.guide-list dd{margin-bottom:35px}
@@ -229,19 +229,19 @@ a{
 .logo-balloons{width:263px;height:30.925%;margin-left:131.5px;top:13.33%;-webkit-transform-origin:50% 100%;-moz-transform-origin:50% 100%;-ms-transform-origin:50% 100%;-o-transform-origin:50% 100%;transform-origin:50% 100%;-webkit-transition:-webkit-transform 2.5s ease;-moz-transition:-moz-transform 2.5s ease;-ms-transition:-ms-transform 2.5s ease;-o-transition:-o-transform 2.5s ease;transition:transform 2.5s ease}
 .logo-blackhole,.logo-blackhole-light{width:310px;height:28.7%;margin-left:155px;top:13.05%}
 .logo-blackhole-light{z-index:11}
-.cloud-large{display:none;width:304px;height:237px;top:7.962%;left:100%;z-index:7;background:url(img/cloud-large_3060040.png) no-repeat}
-.cloud-small{display:none;width:271px;height:76px;top:24.35%;left:100%;z-index:11;background:url(img/cloud-small_d7d76ae.png) no-repeat}
+.cloud-large{display:none;width:304px;height:237px;top:7.962%;left:100%;z-index:7;background:url(/*图片链接*/) no-repeat}
+.cloud-small{display:none;width:271px;height:76px;top:24.35%;left:100%;z-index:11;background:url(/*图片链接*/) no-repeat}
 .cssanimations .cloud-large,.cssanimations .cloud-small{display:block}
 .cloud-large-once{left:70%}
 .cloud-small-once{left:45%}
-.balloon-t{display:none;width:102px;height:126px;margin-left:20%;top:49.81%;left:50%;z-index:9;background:url(img/fire-balloon-t_2dd4a5b.png) no-repeat}
-.balloon-b{display:none;width:137px;height:166px;margin-left:31%;top:66%;left:50%;z-index:9;background:url(img/fire-balloon-b_6faf8e7.png) no-repeat}
+.balloon-t{display:none;width:102px;height:126px;margin-left:20%;top:49.81%;left:50%;z-index:9;background:url(/*图片链接*/) no-repeat}
+.balloon-b{display:none;width:137px;height:166px;margin-left:31%;top:66%;left:50%;z-index:9;background:url(/*图片链接*/) no-repeat}
 .balloon-mini{width:1.5em;height:1.9375em;margin-left:14.4375em;top:1.4375em;left:50%;z-index:9}
 .balloon-mini img{width:100%;height:100%}
 .cssanimations .balloon-t,.cssanimations .balloon-b{display:block}
-.bubble-large{display:none;width:22px;height:22px;left:50%;z-index:10;background:url(img/bubble-l_4298778.png) no-repeat}
-.bubble-middle{display:none;width:12px;height:12px;left:50%;z-index:10;background:url(img/bubble-m_0a5e8dd.png) no-repeat}
-.bubble-small{display:none;width:8px;height:8px;left:50%;z-index:10;background:url(img/bubble-s_e9b8cb7.png) no-repeat}
+.bubble-large{display:none;width:22px;height:22px;left:50%;z-index:10;background:url(/*图片链接*/) no-repeat}
+.bubble-middle{display:none;width:12px;height:12px;left:50%;z-index:10;background:url(/*图片链接*/) no-repeat}
+.bubble-small{display:none;width:8px;height:8px;left:50%;z-index:10;background:url(/*图片链接*/) no-repeat}
 .cssanimations .bubble-large,.cssanimations .bubble-middle,.cssanimations .bubble-small{display:block;opacity:0}
 .bubble-1{margin-left:-3.89%;top:27.96%}
 .bubble-2{margin-left:-1%;top:29%;z-index:7}
@@ -262,10 +262,10 @@ a{
 .light-2{top:24%;margin-left:1.5%}
 .light-3{top:29%;margin-left:-1.5%;-webkit-transform:translate(-9000px,-9000px);-moz-transform:translate(-9000px,-9000px);-ms-transform:translate(-9000px,-9000px);-o-transform:translate(-9000px,-9000px);transform:translate(-9000px,-9000px)}
 .light-4{top:29%;margin-left:1.5%;-webkit-transform:translate(-8000px,-8000px);-moz-transform:translate(-8000px,-8000px);-ms-transform:translate(-8000px,-8000px);-o-transform:translate(-8000px,-8000px);transform:translate(-8000px,-8000px)}
-.aircraft-mountain{display:none;width:100%;height:260px;bottom:0;left:0;z-index:5;background:url(img/aircraft-mountain_02ef836.gif) no-repeat center top}
-.aircraft-sky{display:none;width:100%;height:100%;bottom:0;left:0;z-index:1;background:url(img/aircraft-sky_6240b82.jpg) no-repeat center center}
-.aircraft-stars-front,.aircraft-stars-behind{display:none;width:100%;height:2160px;bottom:0;left:0;z-index:3;background:url(img/aircraft-stars-front_1bc730a.png) no-repeat center top}
-.aircraft-stars-behind{z-index:2;background:url(img/aircraft-stars-behind_f8aa170.png) no-repeat center top}
+.aircraft-mountain{display:none;width:100%;height:260px;bottom:0;left:0;z-index:5;background:url(/*图片链接*/) no-repeat center top}
+.aircraft-sky{display:none;width:100%;height:100%;bottom:0;left:0;z-index:1;background:url(/*图片链接*/) no-repeat center center}
+.aircraft-stars-front,.aircraft-stars-behind{display:none;width:100%;height:2160px;bottom:0;left:0;z-index:3;background:url(/*图片链接*/) no-repeat center top}
+.aircraft-stars-behind{z-index:2;background:url(/*图片链接*/) no-repeat center top}
 .cssanimations .aircraft-sky,.cssanimations .aircraft-mountain,.cssanimations .aircraft-stars-front,.cssanimations .aircraft-stars-behind{display:block}
 .meteor{display:none;width:4px;height:4px;top:-200%;z-index:4;background:#fff;border-radius:2px}
 .meteor-1{left:160%}
@@ -273,7 +273,7 @@ a{
 .cssanimations .meteor{display:block}
 .lt-ie9 #nav li{width:19.9%}
 *html #nav li{width:19.9%}
-*html #slide-bar li a{background-image:url(img/png8-button-slide-bar_b7bfdc7.png)}
+*html #slide-bar li a{background-image:url(/*图片链接*/)}
 *html #desc h2{height:7.777%}
 *html .logo img{width:auto}
 @media screen and (max-width:640px){
