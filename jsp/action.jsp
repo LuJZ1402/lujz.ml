@@ -1,3 +1,4 @@
+#action.jsp
 <body>
   <jsp:useBean id="user" class="com.witbridge.sabrina.testLogin" scope="request"></jsp:useBean>
   <jsp:setProperty name="user" property="*" />
