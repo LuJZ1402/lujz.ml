@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>梦之幻想</title>
+  <link rel="SHORTCUT ICON" href="ico/mc.ico">
+  <link href="css/all_84badac.css" rel="stylesheet" type="text/css" />
+  <script src="js/jquery-1.11.1.min_7e57d31.js"></script>
+  <script src="js/jquery-ui-1.10.4.custom.min_c49b322.js"></script>
+  <script src="js/jquery.mousewheel.min_14a6833.js"></script>
+  <script src="js/modernizr.custom.42389_32afb40.js"></script>
+  <script src="js/client_f1d5015.js"></script>
+  <script src="js/main_02e9833.js"></script>
+  <script src="js/jquery.min.js.js"></script>
+<style>
+ body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+      }
+</style>
+</head>
+
+<script language="javascript">
+                //防止页面后退
+                history.pushState(null, null, document.URL);
+                window.addEventListener('popstate', function () {
+                                var aa=document.getElementById('tc');
+                                aa.style.display="block";
+                    history.pushState(null, null, document.URL);
+                });
+                        function gb(){
+                                var aa=document.getElementById('tc');
+                                aa.style.display="none";
+                        }
+            </script>
+
+</head>
+<audio autoplay="autoplay">
+
+		<source src="music/Johnyrighthere - Wake up (OriginalMix).mp3" type="audio/mpeg" />
+</audio>
+<body>
+<!--<h1 id="top-left-bar" class="top-bar" href="#&quot;" target="_blank">欢迎各位大佬的加入!!!</h1>-->
+<div id="container" class="main-expanding" style="width: 1920px; height: 909px;"><canvas id="canvas">
+
+
+
+</canvas>
+ 
+   <div id="nav">
+    <ul>
+     <li>
+     	<a href="#" target="_blank" id="link-about">
+        	<span class="link-text-wrapper">
+             <span class="link-text">首页</span>
+	    </span>
+		</a>
+	  </li>
+     <li>
+     	<a href="#" target="_blank" id="link-log">
+    	 <span class="link-text-wrapper">
+         	<span class="link-text">
+             <em class="link-icon">
+            </em>作者</span>
+        </span>
+        </a>
+      </li>
+     <li>
+      <a href="#" target="_blank" id="link-guide">
+       <span class="link-text-wrapper">
+        <span class="link-text">
+         <em class="link-icon">
+        </em>关于网站</span>
+        </span>
+        </a>
+      </li>
+     <li>
+      <a href="http://wpa.qq.com/msgrd?v=3&uin=530813745&site=qq&menu=yes" id="link-app" target="_blank">
+       <span class="link-text-wrapper">
+        <span class="link-text">
+         <em class="link-icon">
+        </em>联系我们</span>
+        </span>
+        </a>
+      </li>
+     <li>
+      <a href="https://qm.qq.com/cgi-bin/qm/qr?k=N932n72T_oLmhl-EQE3PjUTycmMplE9w&authKey=BO5gibkSOZGM0/EKi6ThUaCGFTaW8zHWtxlGq/f3Pg5j1NCRES7xDDBu29FNOXo6&noverify=0" id="link-comment" target="_blank">
+       <span class="link-text-wrapper"> <span class="link-text"> <em class="link-icon"></em>QQ群</span> </span> </a> </li>
+    </ul>
+    <div id="nav-overlay"></div>
+  </div>
+
+<span id="logo" class="logo original-logo" style="width: 179.275px; height: 201.158px; margin-left: -89.6375px; top: 16.574%;"></span>
+   <span id="logo-text" style="width: 505px; height: 69.8583px; margin-left: -252.5px; top: 43.24%;">欢迎各位大佬的加入!!!<img alt="" src="images/hm.png">
+   </span>
+    
+   <div id="button-download" style="top: 63.88%;">
+    <a href="#" target="_blank" class="i-bbt">建设中</a>
+    <a href="#" target="_blank" class="i-bbt">联系我们</a>
+   </div>
+
+</div>
+
+
+<script>
+(function matrix() {
+
+    var w, h, row, col, array;
+    var fontSize = 32;
+    var str = "123456789aαβγδbζηθcικλμνdsξοπeρστfυφχgψω";
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+
+    function resize() {
+        w = window.innerWidth;
+        h = window.innerHeight;
+        canvas.width = w;
+        canvas.height = h;
+        row = Math.ceil(h / fontSize);
+        col = Math.ceil(w / fontSize);
+        //设置一个记录每列元素的位置的数组，长度等于列数，初始位置从零开始
+        array = (new Array(col)).fill(0);
+    }
+
+    function draw() {
+        ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+        ctx.fillRect(0, 0, w, h);
+        ctx.font = fontSize + "px";
+        ctx.fillStyle = "rgb(19, 255, 75)";
+        for (var i = 0; i < col; i++) {
+            //设置一个概率事件，让每列元素的位置随机增加
+            if (Math.random() > 0.5) {
+                var s = str[Math.floor(Math.random() * str.length)];
+                ctx.fillText(s, i * fontSize, array[i] * fontSize);
+                array[i] += 0.5;
+                //当元素的位置大于行数时重置其位置
+                if (array[i] > row) {
+                    array[i] = 0;
+                }
+            }
+        }
+    }
+
+    window.onresize = resize;
+    resize()
+    setInterval(draw, 1000 / 60)
+
+})()
+</script>
+
+
+
+</body>
+</html>
